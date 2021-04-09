@@ -4,9 +4,27 @@
         <meta charset="UTF-8">
         <title>Aladdin</title>
         <meta name="description" content="アラジントースターの特徴、日々のレシピをご紹介">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+    <header>
+        <h1>Aladdin</h1>
+        <p>このWebサイトは,Aladdinトースターについてのレシピを紹介しております。</p>
+        <nav>
+          <ul>
+            <li><a href="#">朝食</a></li>
+            <li><a href="#">昼食</a></li>
+            <li><a href="#">スイーツタイム</a></li>
+            <li><a href="#">夕食</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Aladdinトースター</h2>
+        <p>最新のAladdinトースター情報！</p>
+      </article>
         <h1>Aladdinの特徴</h1>
         <h2>グラファイトグリル＆トースター</h2>
         <h3>遠赤グラファイト</h3>
@@ -14,10 +32,19 @@
         <p>最高温度330℃。（付属品グリルパン使用時）</p>
         <a href="https://aladdin-aic.com" target="blank">Aladdin</a>
         <img src=".image.jpg/Aladdin.jpg"　alt="Aladdinトースター"
-
+      <section>
         <h4>Aladdinの一日</h4>
         <p>スイーツ</p>
         <li>くるみのブラウニー</li>
+        <ui>
+            <li>ココアパウダー　30g</li>
+            <li>砂糖　220g</li>
+            <li>バター　150g</li>
+            <li>卵　3個</li>
+            <li>くるみ　50g</li>
+            <li>薄力粉　90g</li>
+            <li>ベーキングパウダー　4g</li>
+        </ui>
         <ol>
             <li>グリルパン(深鍋)にオーブンシートを敷く。</li>
             <li>大きめのボールにバターを入れ、ふんわりとラップをし、６００Wの電子レンジで２分加熱して溶かす。</li>
@@ -28,7 +55,10 @@
             <li>トースターに入れ、160℃で約15分加熱する。一度取り出して、グリルパン(浅鍋)でふたをして、さらに10分加熱する。</li>
             <li>深鍋から取り出し、食べやすい大きさに切って出来上がり。</li>
         </ol>
-            <form action="example.php" method="post" name="contact-form">
+      </section>
+    </main>
+    <aside>
+        <form action="example.php" method="post" name="contact-form">
             ここにフォームが入ります。
         </form>
         <p>
@@ -65,9 +95,8 @@
             <option value="AB">AB</option>
             <option value="不明" selected>不明</option>
         </select>
-        </p>
         <p>
-        <textarea name="message" placeholder="メッセージを入力"></textarea>
+      <textarea name="message" placeholder="メッセージを入力"></textarea>
         </p>
 
         <div>
@@ -76,10 +105,16 @@
 
             <input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
             <label for="europe">ヨーロッパ</label>
-            
             <input type="checkbox" name="travel" value="東南アジア" id="asia">
             <label for="asia">東南アジア</label>
         </div>
+    </aside>
     </body>
-    
+    <footer>
+      <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+      </ul>
+      <p>Copyright 2021 MK</p>  
+    </footer>
 </html>
