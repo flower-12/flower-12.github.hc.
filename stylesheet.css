@@ -9,6 +9,10 @@ P {
     font-size: 20px;
 }
 
+article {
+    font-family: fantasy;
+}
+
 article p {
     color: blue; font-size: 20px
 }
