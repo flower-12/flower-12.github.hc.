@@ -8,3 +8,7 @@ h1 {
 P {
     font-size: 20px;
 }
+
+article p {
+    color: blue; font-size: 20px
+}
