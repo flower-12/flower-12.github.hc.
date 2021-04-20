@@ -8,6 +8,8 @@ body {
 h1 {
     color: #0bd;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-width: 4px;
+    border-style:outset;
 }
 P {
     font-size: 20px;
